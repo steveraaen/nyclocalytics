@@ -1,0 +1,1 @@
+ndjson-map < citibike.ndjson '{"properties": {"id": d.id, "stationName": d.stationName, "availableDocks": d.availableDocks,"statusValue": d.statusValue,"statusKey": d.statusKey,"availableBikes": d.availableBikes,"stAddress1": d.stAddress1,"lastCommunicationTime": d.lastCommunicationTime},"geometry":{"type": "Point","coordinates": [d.longitude, d.latitude]}}' > citigeob.ndjson
